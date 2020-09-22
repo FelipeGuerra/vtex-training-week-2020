@@ -1,6 +1,6 @@
 {
   "vendor": "appliancetheme",
-  "name": "main-theme",
+  "name": "main-theme-guerra",
   "version": "0.1.0",
   "builders": {
     "styles": "2.x",
