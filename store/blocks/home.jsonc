@@ -3,7 +3,8 @@
 		"blocks": [
 			"responsive-layout.desktop#desktop",
 			"responsive-layout.mobile#mobile",
-			"tab-layout#home"
+			"tab-layout#home",
+			"modal-trigger#first"
 		]
 	},
 	"responsive-layout.mobile#mobile": {
@@ -216,5 +217,26 @@
 			"textPosition": "CENTER",
 			"font": "t-heading-3"
 		}
+	},
+	"modal-trigger#first": {
+	  "children": [
+		"rich-text#trigger",
+		"modal-layout#first"
+	  ]
+	},
+	"modal-layout#first": {
+	  "children": [
+		"rich-text#hello"
+	  ]
+	},
+	"rich-text#trigger": {
+	  "props": {
+		"text": "CLICK ME"
+	  }
+	},
+	"rich-text#hello": { 
+	  "props": {
+		"text": "Hello"
+	  }
 	}
 }
